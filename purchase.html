@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+    <!-- Nav Bar -->
+    
+    <header>
+        <nav class="fixed-top navbar navbar-dark navbar-expand-lg" id="navbar">
+            <a href="" class="nav-brand"><img src="image/Bakery Cake Shop Sweet Shop Logo .png" height="70" width="90"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav"><span class="navbar-toggler-icon"></span></button>
+            <div id="mynav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-target="#dd" data-bs-toggle="dropdown">Menu & Pricing</a>
+                    <ul id="dd" class="dropdown-menu">
+                        <li class="nav-item"><a href="fruit.html" class="nav-link">Fruit Cakes</a></li>
+                        <li class="nav-item"><a href="dryfruit.html" class="nav-link"> Dry Fruit Cakes </a></li>
+                        <li class="nav-item"><a href="cup.html" class="nav-link">Cup cakes</a></li>
+                        <li class="nav-item"><a href="pastries.html" class="nav-link">Pastries</a></li>
+                        <li class="nav-item"><a href="brownies.html" class="nav-link">Brownies</a></li>
+                        <li class="nav-item"><a href="themes.html" class="nav-link">Themes Cakes</a></li>
+                        <li class="nav-item"><a href="cheese.html" class="nav-link">Cheese Cakes</a></li>
+                    </ul>
+                    </li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-target="#dd" data-bs-toggle="dropdown">EVENTS</a>
+                <ul id="dd" class="dropdown-menu">
+                    <li class="nav-item"><a href="wedding.html" class="nav-link">Wedding Cakes</a></li>
+                    <li class="nav-item"><a href="chrismiss.html" class="nav-link"> Chrismiss Cakes</a></li>
+                    <li class="nav-item"><a href="anniversary.html" class="nav-link"> Anniversary Cakes</a></li>
+                    <li class="nav-item"><a href="engagement.html" class="nav-link"> Engagement Cakes</a></li>
+                    
+                  
+                </ul>
+                </li>
+                <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
+                <li class="nav-item"><a href="contact us.html" class="nav-link">CONTACT US</a></li>
+            </ul>
+            </div>
+            <div class="text-end">
+                
+                    
+                    <a href="signup.html" class="btn btn-outline-light">Sign Up</a>
+                    <a href="login.html" class="btn btn-outline-light">Log In</a>
+               
+              
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+  <!-- end of nav bar -->
+    <div class="container mt-3">
+    <div class="row">
+        <h1 class="text-center">PURCHASE</h1>
+        <div class="col-lg-6">
+            <img src="" id="prod" width="500" height="500">
+        </div>
+        <div class="col-lg-6">
+            <form  onsubmit="return Purchase()">
+                <label  class="form-label">Name: <span id="usercheck" style="color:red"></span> </label>
+                <input type="text"  id="username" placeholder="Enter user name" class="form-control">    <br>
+              
+                <!-- <label  class="form-label">Contact Number: <span id="mobilecheck" style="color:red"></span> </label>
+                <input type="text"  id="contact" placeholder="Enter Contact number" class="form-control">    <br> -->
+                 
+                <label  class="form-label">Email address: <span id="emailcheck" style="color:red"></span> </label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">    <br>
+                
+                <label  class="form-label">Address: <span id="addcheck" style="color:red"></span>  </label>
+                <textarea class="form-control" id="address" rows="3"></textarea>        <br>
+                
+                <label  class="form-label">Delievery Address: <span id="daddcheck" style="color:red"></span> </label>
+                <textarea class="form-control" id="daddress" rows="3"></textarea>    <br>
+                 
+                <label  class="form-label">Item Code:<span id="codecheck" style="color:red"></span></label>
+                <input type="text" class="form-control" id="itemcode" > <br>
+                
+                <label  class="form-label">Delivery Date: <span id="datecheck" style="color:red"></span> </label>
+                <input type="date" class="form-control" id="ddate">    <br>
+               
+                <label  class="form-label">Quantity: <span id="quantitycheck" style="color:red"></span> </label>
+                <input type="number" class="form-control" id="quantity">  <br>  
+              
+            <button class="btn btn-danger">Check Out</button>   
+            </form> 
+              </div>
+        </div>
+    </div>
+    <!-- start footer -->
+
+    <br>
+    <br>
+    
+<!-- card end -->
+
+<!-- start footer -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li>
+                        <a href="#">about us</a><br>
+                        <a href="#">our services</a><br>
+                        <a href="#">privacy policy</a><br>
+                        <a href="#">affiliate program</a><br>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li>
+                        <a href="#">FAQS</a><br>
+                        <a href="#">Shipping</a><br>
+                        <a href="#">return</a><br>
+                        <a href="#">order status</a><br>
+                        <a href="#">payment option</a><br>
+    
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li style="text-decoration:none ;">
+                        <a href="wedding.html">Wedding cake</a><br>
+                        <a href="chrismiss.html">Chrismiss cake </a><br>
+                        <a href="anniversary.html">Annivarsery cake</a><br>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="Social-links">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a><br>
+                        <a href="#"><i class="fab fa-twitter"></i></a><br>
+                        <a href="#"><i class="fab fa-instagram"></i></a><br>
+                        <a href="#"><i class="fab fa-linked-in"></i></a><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+        </footer>
+
+        <script>
+            document.getElementById("prod").src= localStorage.getItem("Image");
+            function Purchase() {
+         // -----------getting values from textboxes -----------
+             var u = document.getElementById("username").value;
+             //var m = document.getElementById("contact").value;
+             var e = document.getElementById("email").value;
+             var a = document.getElementById("address").value;
+             var da = document.getElementById("daddress").value;
+             var ic = document.getElementById("itemcode").value;
+             var ddate = document.getElementById("ddate").value;
+             var q =  document.getElementById("quantity").value;
+        
+         //--------Check whether the values are correct or empty-----
+          var usercheck = /^[a-zA-Z. ]{3,30}$/;
+          //var mobilecheck = /^[0-9]{11}$/;
+          var emailcheck = /^[a-zA-Z\d_]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z.]{2,6}$/;
+          var addcheck = /^[a-zA-Z0-9!@#$%^&*()/  ]{10,50}$/;
+          var daddcheck = /^[a-zA-Z0-9!@#$%^&*()/  ]{10,50}$/;
+          var codecheck = /^[a-zA-Z0-9]{3,30}$/;
+        
+          if(usercheck.test(u))
+          {
+             document.getElementById("usercheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("usercheck").innerHTML = " **Invalid User Name ";
+             return false;
+          }
+        //   if(mobilecheck.test(m))
+        //   {
+        //      document.getElementById("mobilecheck").innerHTML = " ";
+        //   }
+        //   else
+        //   {
+        //      document.getElementById("mobilecheck").innerHTML = " **Invalid Mobile Number";
+        //      return false;
+        //   }
+          if(emailcheck.test(e))
+          {
+             document.getElementById("emailcheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("emailcheck").innerHTML = " **Invalid Email Address";
+             return false;
+          }
+          if(addcheck.test(a))
+          {
+             document.getElementById("addcheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("addcheck").innerHTML = " **Invalid Address";
+             return false;
+          }
+          if(daddcheck.test(da))
+          {
+             document.getElementById("daddcheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("daddcheck").innerHTML = " **Invalid Delievery Address";
+             return false;
+          }
+          if(codecheck.test(ic))
+          {
+             document.getElementById("codecheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("codecheck").innerHTML = " **Invalid Code";
+             return false;
+          }
+          if(ddate!="")
+          {
+             document.getElementById("datecheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("datecheck").innerHTML = "Please select Delievery Date ";
+             return false;
+          }
+          if(q!="")
+          {
+             document.getElementById("quantitycheck").innerHTML = " ";
+          }
+          else
+          {
+             document.getElementById("quantitycheck").innerHTML = "Please select Quantity ";
+             return false;
+          }
+          alert("Thanks For Your Order");
+         }
+   
+         
+
+         var link=window.location.href;
+         var url=new URL(link)
+
+         var id=url.searchParams.get('img');
+         document.getElementById("prod").src=id;
+
+         </script>
+
+</body>
+</html>
+  
+
+
+   
